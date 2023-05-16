@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    Khi chua nhan vao buutton-->
+    <item android:state_pressed="false">
+        <shape>
+<!--            Mau nen button-->
+            <solid android:color="@color/white">
+
+            </solid>
+<!--            Tao vien cho button-->
+            <stroke android:width="3dp" android:color="@color/white"></stroke>
+            <!--            boder cho button-->
+            <corners android:radius = "35dp"></corners>
+        </shape>
+
+    </item>
+</selector>

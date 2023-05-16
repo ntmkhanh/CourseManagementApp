@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgr"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/txtViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:text="Course Management"
+            android:textColor="@color/ori"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="153dp"
+            android:layout_marginTop="150dp" />
+
+        <Button
+            android:id="@+id/btnCourse"
+            android:layout_width="202dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/background_button"
+            android:text="Courses"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="202dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_button"
+            android:text="Exit"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txtVersion"
+            android:layout_width="161dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="v1.0"
+            android:textColor="@color/gray"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_marginTop="75dp"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
